@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 57.989 s <<< FAILURE! - in TestSuite
+flipzyt(commerce.test.Flipframework.fliptest55)  Time elapsed: 14.687 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression (//div[text()='Discover Premier Inn'])[2"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//div[text()='Discover Premier Inn'])[2"]' is not a valid XPath expression.
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5feefee58ff54205f653b13ea111c0a1, findElement {using=xpath, value=(//div[text()='Discover Premier Inn'])[2"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\USERPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58130/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5feefee58ff54205f653b13ea111c0a1
+	at commerce.test.Flipframework.fliptest55.flipzyt(fliptest55.java:27)
+
+flipz4(commerce.test.Flipframework.fliptest4)  Time elapsed: 10.27 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="submit" name="submit" value="Submit"> is not clickable at point (746, 347). Other element would receive the click: <div id="gdpr-consent-tool-wrapper" tabindex="-1" aria-hidden="false" role="presentation" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98539af9c5235c3b638c056bee42b8b6, clickElement {id=5EC8EAC1026A62FEC6122B95C57ACFBF_element_38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\USERPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58316/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98539af9c5235c3b638c056bee42b8b6)] -> name: submit]
+Session ID: 98539af9c5235c3b638c056bee42b8b6
+	at commerce.test.Flipframework.fliptest4.flipz4(fliptest4.java:19)
+
